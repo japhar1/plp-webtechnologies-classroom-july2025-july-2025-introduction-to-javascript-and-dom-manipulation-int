@@ -1,0 +1,133 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f5f7fa;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 20px;
+    background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    margin-bottom: 10px;
+    font-size: 2.5rem;
+}
+
+h2 {
+    margin: 25px 0 15px;
+    padding-bottom: 8px;
+    border-bottom: 2px solid #2575fc;
+    color: #2575fc;
+}
+
+h3 {
+    margin: 20px 0 10px;
+    color: #6a11cb;
+}
+
+.part {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 25px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.code-block {
+    background-color: #f8f9fa;
+    border-left: 4px solid #2575fc;
+    padding: 15px;
+    margin: 15px 0;
+    overflow-x: auto;
+    font-family: 'Courier New', monospace;
+    border-radius: 0 5px 5px 0;
+}
+
+button {
+    background-color: #2575fc;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #1a5fd8;
+}
+
+input, select {
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin: 5px;
+}
+
+.output {
+    background-color: #e9f7fe;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px 0;
+    min-height: 30px;
+}
+
+.task {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+}
+
+.highlight {
+    background-color: #fffacd;
+    padding: 2px 4px;
+    border-radius: 3px;
+}
+
+.user-list {
+    list-style-type: none;
+    margin: 10px 0;
+}
+
+.user-list li {
+    padding: 8px;
+    margin: 5px 0;
+    background-color: #f0f8ff;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.color-box {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    display: inline-block;
+    border: 1px solid #ddd;
+}
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+    padding: 20px;
+    color: #666;
+    font-size: 0.9rem;
+}

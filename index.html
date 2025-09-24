@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Fundamentals Assignment</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>JavaScript Fundamentals Assignment</h1>
+        <p>Mastering Variables, Functions, Loops, and DOM Manipulation</p>
+    </header>
+    
+    <div class="part">
+        <h2>🎯 Part 1: JavaScript Basics</h2>
+        <p>Variables, data types, operators, and conditionals</p>
+        
+        <div class="task">
+            <h3>Task 1: Age Checker</h3>
+            <p>Enter your age to check if you're eligible to vote:</p>
+            <input type="number" id="ageInput" placeholder="Enter your age" min="1" max="120">
+            <button id="checkAgeBtn">Check Eligibility</button>
+            <div id="ageOutput" class="output"></div>
+        </div>
+        
+        <div class="task">
+            <h3>Task 2: Simple Calculator</h3>
+            <p>Enter two numbers and select an operation:</p>
+            <input type="number" id="num1" placeholder="First number">
+            <select id="operation">
+                <option value="add">Add</option>
+                <option value="subtract">Subtract</option>
+                <option value="multiply">Multiply</option>
+                <option value="divide">Divide</option>
+            </select>
+            <input type="number" id="num2" placeholder="Second number">
+            <button id="calculateBtn">Calculate</button>
+            <div id="calcOutput" class="output"></div>
+        </div>
+    </div>
+    
+    <div class="part">
+        <h2>❤️ Part 2: JavaScript Functions</h2>
+        <p>Reusable blocks of logic for cleaner code</p>
+        
+        <div class="task">
+            <h3>Task 1: Temperature Converter</h3>
+            <p>Convert between Celsius and Fahrenheit:</p>
+            <input type="number" id="tempInput" placeholder="Enter temperature">
+            <button id="toFahrenheitBtn">Convert to °F</button>
+            <button id="toCelsiusBtn">Convert to °C</button>
+            <div id="tempOutput" class="output"></div>
+        </div>
+        
+        <div class="task">
+            <h3>Task 2: String Formatter</h3>
+            <p>Enter text to format it in different ways:</p>
+            <input type="text" id="textInput" placeholder="Enter some text">
+            <button id="upperCaseBtn">UPPERCASE</button>
+            <button id="lowerCaseBtn">lowercase</button>
+            <button id="capitalizeBtn">Capitalize Words</button>
+            <div id="textOutput" class="output"></div>
+        </div>
+    </div>
+    
+    <div class="part">
+        <h2>🔁 Part 3: JavaScript Loops</h2>
+        <p>Repetitive tasks made efficient with loops</p>
+        
+        <div class="task">
+            <h3>Task 1: Number Sequence Generator</h3>
+            <p>Generate a sequence of numbers:</p>
+            <input type="number" id="loopCount" placeholder="How many numbers?" min="1" max="20" value="5">
+            <button id="generateSequenceBtn">Generate Sequence</button>
+            <div id="sequenceOutput" class="output"></div>
+        </div>
+        
+        <div class="task">
+            <h3>Task 2: User List Manager</h3>
+            <p>Add users to a list and display them:</p>
+            <input type="text" id="userName" placeholder="Enter user name">
+            <button id="addUserBtn">Add User</button>
+            <button id="displayUsersBtn">Display Users</button>
+            <button id="clearUsersBtn">Clear List</button>
+            <div id="userOutput" class="output">
+                <ul id="userList" class="user-list"></ul>
+            </div>
+        </div>
+    </div>
+    
+    <div class="part">
+        <h2>🌐 Part 4: DOM Manipulation</h2>
+        <p>Making web pages interactive with JavaScript</p>
+        
+        <div class="task">
+            <h3>Task 1: Content Modifier</h3>
+            <p>Change the content and style of this paragraph:</p>
+            <p id="modifiableText">This is the original text. Click the buttons to modify me!</p>
+            <button id="changeTextBtn">Change Text</button>
+            <button id="changeColorBtn">Change Color</button>
+            <button id="toggleVisibilityBtn">Toggle Visibility</button>
+        </div>
+        
+        <div class="task">
+            <h3>Task 2: Dynamic Element Creator</h3>
+            <p>Create colored boxes dynamically:</p>
+            <button id="createBoxBtn">Add Colored Box</button>
+            <button id="removeBoxBtn">Remove Last Box</button>
+            <button id="clearBoxesBtn">Clear All Boxes</button>
+            <div id="boxContainer"></div>
+        </div>
+        
+        <div class="task">
+            <h3>Task 3: Interactive List</h3>
+            <p>Add and remove items from a list:</p>
+            <input type="text" id="listItem" placeholder="Enter list item">
+            <button id="addListItemBtn">Add to List</button>
+            <div id="interactiveList" class="output">
+                <ul id="itemList"></ul>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <p>JavaScript Fundamentals Assignment - Completed Successfully!</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
